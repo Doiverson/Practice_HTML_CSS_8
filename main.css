@@ -1,0 +1,151 @@
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image: url("img/back.jpg");
+    background-size: cover;
+}
+
+
+
+.container {
+    margin: 0 auto;
+}
+
+
+/*Slide image*/
+
+.title-img {
+    text-align: center;
+    transform: translateY(-414px);
+    animation-name: slide-in;
+    animation: slide-in 2s ease forwards;
+}
+
+
+
+@keyframes slide-in {
+
+    50%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+/*Title and navigation*/
+
+.main-title {
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    transform: translateY(-130px);
+}
+
+
+
+.title {
+    opacity: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 0;
+    animation-name: subtitle;
+    animation: subtitle 1s ease 2s forwards;
+}
+
+@keyframes subtitle {
+
+    100% {
+        letter-spacing: 25px;
+        opacity: 0.8;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    animation-name: menu;
+    animation: menu 1s ease 2s forwards;
+}
+
+@keyframes menu {
+    100% {
+        padding: 0 40px;
+        opacity: 0.8;
+    }
+}
+
+li {
+    margin-right: 5px;
+}
+
+/*image*/
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.pic,
+.description {
+    margin-right: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.description {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0 10px;
+}
+
+.pic img {
+    max-width: 100%;
+}
+
+.description h3 {
+    color: brown;
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+h3::after {
+    content: '';
+    border: solid 1px gray;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    transition: 2s ease;
+}
+
+.photo1:hover,
+.photo2:hover,
+.photo3:hover {
+    transform: translateY(-300px);
+}
+
