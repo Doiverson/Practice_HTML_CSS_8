@@ -13,14 +13,12 @@ body {
     background-size: cover;
 }
 
-
-
 .container {
     margin: 0 auto;
 }
 
 
-/*Slide image*/
+/*Slide down logo*/
 
 .title-img {
     text-align: center;
@@ -28,7 +26,6 @@ body {
     animation-name: slide-in;
     animation: slide-in 2s ease forwards;
 }
-
 
 
 @keyframes slide-in {
@@ -42,7 +39,8 @@ body {
     }
 }
 
-/*Title and navigation*/
+
+/*Subtitle and navigation*/
 
 .main-title {
     width: 60%;
@@ -52,9 +50,7 @@ body {
     transform: translateY(-130px);
 }
 
-
-
-.title {
+.subtitle {
     opacity: 0;
     font-size: 20px;
     font-weight: lighter;
@@ -123,6 +119,7 @@ li {
     color: brown;
     position: relative;
     text-align: center;
+    margin-top: 0;
     margin-left: 30px;
     margin-right: 30px;
     padding-top: 20px;
@@ -138,15 +135,11 @@ h3::after {
     bottom: 0;
 }
 
-.photo1,
-.photo2,
-.photo3 {
+.photo {
     transition: 2s ease;
 }
 
-.photo1:hover,
-.photo2:hover,
-.photo3:hover {
+.photo:hover {
     transform: translateY(-300px);
 }
 
