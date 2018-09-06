@@ -59,6 +59,7 @@ body {
     font-size: 20px;
     font-weight: lighter;
     margin-top: 0;
+    margin-bottom: 30px;
     animation-name: subtitle;
     animation: subtitle 1s ease 2s forwards;
 }
