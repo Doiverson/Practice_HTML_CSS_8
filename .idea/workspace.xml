@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="06a0cf5e-f9e6-4710-8d2f-04884d70e5ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
+=======
+    <list default="true" id="06a0cf5e-f9e6-4710-8d2f-04884d70e5ff" name="Default Changelist" comment="" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -61,6 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="525">
               <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
               <folding>
@@ -70,6 +75,10 @@
                 <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+=======
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
             </state>
           </provider>
         </entry>
@@ -111,7 +120,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="118" />
+=======
+    <option name="x" value="508" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
     <option name="width" value="1122" />
     <option name="height" value="900" />
   </component>
@@ -173,16 +186,28 @@
       <updated>1536169283684</updated>
       <workItem from="1536169285210" duration="13737000" />
       <workItem from="1536218679653" duration="244000" />
+<<<<<<< HEAD
       <workItem from="1536251946432" duration="8047000" />
       <workItem from="1536380580916" duration="248000" />
+=======
+      <workItem from="1536251946432" duration="4017000" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="22276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="0" width="1122" height="900" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="17998000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="508" y="0" width="1122" height="900" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20072661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -244,8 +269,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+=======
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+>>>>>>> 717ac12484bfedc6dd2144dbccbec6dc2192afc1
         </state>
       </provider>
     </entry>
